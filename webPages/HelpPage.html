@@ -1,0 +1,221 @@
+<?php
+session_start();
+include 'login.php';
+?>
+<!--
+Greg Corujo
+HomePage 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" href="Styles.css">
+      <style>
+          .info {font-size: 30px;}
+          .panelContent {
+              margin-bottom: 15px;
+          }
+          .affix {
+              top: 20px;
+          }
+      </style>
+  </head>
+    
+        <div class="container-fluid headPage">
+            <div class="row">
+                <img class="col-sm-3" src="images/logo-bistro-by-the-tracks.gif" alt="Bistro By The Tracks Logo">
+            </div>
+        
+        </div>
+    
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+        
+        <div class="container-fluid">
+            <nav class="navbar navbar-form">
+              <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="HomePage.php">Home</a></li>
+                    <li><a href="YourSchedule.html">Your Schedule</a></li>
+                    <li><a href="ManagerSchedulePage.html">Manager Schedule</a></li>
+                    <li><a href="AnnouncementsPage.html">Announcements</a></li>
+                    <li><a href="ShiftTradesPage.html">Shift Trades</a></li>
+                    <li><a href="ProfilePage.php">Profile</a></li>
+                    <li><a href="logout.php">Log Out</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-left">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                      <button type="submit" class="btn btn-default">Go</button>
+                    </form>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+        <br>
+        
+        <div class="container-fluid">
+            <div class="col-sm-4"></div>
+            <label class="col-sm-4" id="containerLabel"><h1></h1></label>
+            <div class="col-sm-4"></div>
+        </div>
+        
+        <br>
+        <div class="container-fluid">
+          <div class="row content">                                       
+              <div class="col-sm-12">  
+                  <div class="col-sm-2">
+                    <nav id="myScrollspy">                   
+                      <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+                        <h4>Sections</h4>  
+                        <li class="active"><a href="#home">Home Page</a></li>
+                        <li><a href="#yourSchedule">Your Schedule</a></li>
+                        <li><a href="#announcements">Announcements</a></li>
+                        <li><a href="#shiftTrades">Shift Trades</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                      </ul><br>
+                    </nav>
+                  </div>
+                  <div class="col-sm-10 panel panelContainer">
+                      
+                      <div id ="home" class="panel-body panelContent col-sm-12">
+                              <h2><u>Home Page</u></h2>
+                          <img src="images/HomePage.png" class="img-rounded col-sm-12" alt="Home Page">
+                          
+                              <ul class="info">
+                                <li>Shows weekly schedule for the entire staff</li>
+                                <li>Last Week Button</li>
+                                  <ul>
+                                    <li>On-click, this button will retrieve the previous week’s schedule</li>
+                                    <li>This newly retrieved schedule will then replace the current schedule in the content box</li>
+                                  </ul>
+                                <li>Next Week Button</li>
+                                  <ul>
+                                    <li>On-click this button will retrieve the next week’s schedule</li>
+                                    <li>The newly retrieved schedule will replace the old content</li>
+                                  </ul>
+                                <li>Server Link</li>
+                                  <ul>
+                                    <li>Each server listed in the schedule will also have a link to that person’s profile</li>
+                                  </ul>
+                              </ul>
+                            
+                          </div>
+                          <div id="yourSchedule" class="panel-body panelContent col-sm-12">
+                              <h2><u>Your Schedule Page</u></h2>
+                          <img src="images/YourSchedule.png" class="img-rounded col-sm-12" alt="Home Page">
+                              
+                              <ul class="info">
+                                <li>Shows your weekly schedule</li>
+                                <li>Last Week Button</li>
+                                  <ul>
+                                    <li>On-click, this button will retrieve the previous week’s schedule</li>
+                                    <li>This newly retrieved schedule will then replace the current schedule in the content box</li>
+                                  </ul>
+                                <li>Next Week Button</li>
+                                  <ul>
+                                    <li>On-click this button will retrieve the next week’s schedule</li>
+                                    <li>The newly retrieved schedule will replace the old content</li>
+                                  </ul>
+                                <li>Give Up link</li>
+                                  <ul>
+                                    <li>On-click renders a pop-up form</li>
+                                      <li>Pop-up has a drop down to choose who you would like to offer the shift to</li>
+                                      <li>This shift trade will then appear in your shift trade requests</li>
+                                  </ul>
+                              </ul>
+                          </div>
+                      <div id="announcements" class="panel-body panelContent col-sm-12">
+                              <h2><u>Announcements Page</u></h2>
+                          <img src="images/AnnouncementsPage.png" class="img-rounded col-sm-12" alt="Home Page">
+                              <ul class="info">
+                                <li>This page will allow anyone to post a message to the message board</li>
+                                <li>The text box at the bottom allows you to enter a new message</li>
+                                <li>The Post button will save the message and add it to the message board with a stamp containing your name and the date</li>
+                              </ul>
+                          </div>
+                      
+                      <div id="shiftTrades" class="panel-body panelContent col-sm-12">
+                              <h2><u>Shift Trades Page</u></h2>
+                          <img src="images/AcceptedTrades.png" class="img-rounded col-sm-12" alt="Home Page">
+                          <img src="images/RequestsTrades.png" class="img-rounded col-sm-12" alt="Home Page">
+                          
+                              <ul class="info">
+                                <li>This page will consist of 2 tabs</li>
+                                <li>A shift trade is offered by an employee, accepted by an employee, then approved by a manager</li>
+                                <li>Accepted Tab</li>
+                                  <ul>
+                                    <li>Shows a list of all shift trades that have been offered and accepted by you and another employee</li>
+                                    <li>Shows the shift, the offered by employee, the offered to employee and the status of approval</li>
+                                    <li>Once approved the changes will appear in all schedules</li>
+                                  </ul>
+                                <li>Requested Tab</li>
+                                  <ul>
+                                    <li>Shows a list of all shift trades that have only been offered, but not accepted, either by you or to you</li>
+                                    <li>Shows the shift, the offered by employee, the offered to employee and the status of acceptance</li>
+                                      <li>Shifts offered to you allow the option to accept by clicking the Accept link, or decline by clicking the Declne link</li>
+                                  </ul>
+                              </ul>
+                          </div>
+                      
+                      <div id="profile" class="panel-body panelContent col-sm-12">
+                              <h2><u>Profile Page</u></h2>
+                          <img src="images/ProfilePage.png" class="img-rounded col-sm-12" alt="Home Page">
+                          
+                              <ul class="info">
+                                <li>Clicking the picture area will allow you to upload a picture to your profile</li>
+                                <li>Edit Profile Button</li>
+                                  <ul>
+                                    <li>Changes the texts fields to enable editing</li>
+                                    <li>Makes Save Changes button visible</li>
+                                  </ul>
+                              </ul>
+                          </div>
+ 
+                  </div>
+              </div>         
+            </div>
+        </div>                    
+    </body>
+    
+    <footer class="container-fluid"> 
+          <div class="container">   
+              <div class="col-sm-12">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-6">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td class="footLinks"><a href="CreateNewEmployeePage.php">Create New Employee</a></td>
+                        <td class="footLinks"><a href="http://www.bistrobythetracks.com/">Bistro Website</a></td>
+                        <td class="footLinks"><a href="HelpPage.html">Help</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </div>
+              </div>
+            </div>
+        </footer>
+</html>

@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(white, lightgrey, white);
+}
+.headPage {
+  background-color: white;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+
+  .row.content {height: auto;} 
+.panelContainer {
+  background-color: lightgray;
+  border-radius: 15px;
+  height: auto;
+  padding: 30px;
+}
+.panelHead {
+  padding: 20px;
+}
+.panelContent {
+  background-color: white;
+  border-radius: 15px;
+  height: auto;
+}
+#containerLabel {
+    text-align: center;
+}
+footer {
+    background-color: white;
+}
+.footLinks {
+    font-size: 14px;
+    padding: 25px;
+}
+.error {color: #FF0000;}

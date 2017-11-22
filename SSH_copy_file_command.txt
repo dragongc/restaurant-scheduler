@@ -1,0 +1,1 @@
+rsync -rv webPages c2375a06@ps11.pstcc.edu:~/public_html/RESTaurantAssured/webPages
