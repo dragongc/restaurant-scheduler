@@ -8,7 +8,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "kungfubaby611K";
+$password = "";
 $dbname = "RESTaurantAssured";
 
 // Create connection
