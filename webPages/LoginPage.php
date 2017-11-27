@@ -60,19 +60,19 @@ HomePage
                           <div class="col-sm-2"></div>
                           <div class="col-sm-8 login">
 
-                          <form method="post" action="LoginVerify.php">
+                          <form method="post" action="LoginVerify.php" onsubmit="return validateForm()" id="login">
 
                               <div class="form-group">
                                   <span class="error"> <?php echo $_SESSION["notfound"];?></span><br>
                                 <label for="usr">UserName:</label>
                                 <input type="text" class="form-control" id="usr" name="usr">
-                                  <span class="error"> <?php echo $_SESSION["nameErr"];?></span>
+                                  <span class="error" id="usrError"></span>
                               </div>
 
                               <div class="form-group">
                                 <label for="pwd">Password:</label>
                                 <input type="password" class="form-control" id="pwd" name="pwd">
-                                  <span class="error"> <?php echo $_SESSION["passErr"];?></span>
+                                  <span class="error" id="pwdError"></span>
                               </div>
 
                               <div class="checkbox">
@@ -88,6 +88,7 @@ HomePage
               </div>
               <div class="col-sm-3"></div>
             </div>
-        </div>                    
+        </div>
+        <script src="LoginVerify.js"></script>
     </body>
 </html>

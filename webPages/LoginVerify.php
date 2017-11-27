@@ -8,7 +8,7 @@ session_start();
  * Time: 1:08 AM
  */
 
-$_SESSION["nameErr"] = $_SESSION["passErr"] = "";
+$_SESSION["nameErr"] = $_SESSION["passErr"] = $_SESSION["notfound"] = "";
 $name = $pass = "";
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
