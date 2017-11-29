@@ -112,32 +112,7 @@ HomePage
                                             <th>Mon.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="monLunch"></tbody>
                                 </table>
                             </div>
                             
@@ -150,32 +125,7 @@ HomePage
                                             <th>Tues.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="tuesLunch"></tbody>
                                 </table>
                             </div>
                             
@@ -188,32 +138,7 @@ HomePage
                                             <th>Wed.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="wedLunch"></tbody>
                                 </table>
                             </div>  
                         </div>
@@ -227,32 +152,7 @@ HomePage
                                             <th>Thurs.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="thursLunch"></tbody>
                                 </table>
                             </div>
                             <div class="col-sm-3">
@@ -263,32 +163,7 @@ HomePage
                                             <th>Fri.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="friLunch"></tbody>
                                 </table>
                             </div>
                             
@@ -323,7 +198,7 @@ HomePage
                                             <td>Closed</td>
                                         </tr>
                                         <tr>
-                                            <td>MustCall</td>
+                                            <td>Call</td>
                                             <td>Closed</td>
                                         </tr>
                                     </tbody>
@@ -339,32 +214,7 @@ HomePage
                                             <th>Sun.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="sunBrunch"></tbody>
                                 </table>
                             </div>                                                    
                           </div> 
@@ -384,32 +234,7 @@ HomePage
                                             <th>Mon.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="monDin"></tbody>
                                 </table>
                             </div>
                             
@@ -422,32 +247,7 @@ HomePage
                                             <th>Tues.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="tuesDin"></tbody>
                                 </table>
                             </div>
                             
@@ -460,32 +260,7 @@ HomePage
                                             <th>Wed.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="wedDin"></tbody>
                                 </table>
                             </div>  
                         </div>
@@ -499,32 +274,7 @@ HomePage
                                             <th>Thurs.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="thursDin"></tbody>
                                 </table>
                             </div>
                             <div class="col-sm-3">
@@ -535,44 +285,7 @@ HomePage
                                             <th>Fri.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>SA</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>6.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>7.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="friDin"></tbody>
                                 </table>
                             </div>
                             
@@ -585,44 +298,7 @@ HomePage
                                             <th>Sat.</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>2.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>SA</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>6.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>7.</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>MustCall</td>
-                                            <td><a>Name</a></td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="satDin"></tbody>
                                 </table>
                             </div>
                             
@@ -657,7 +333,7 @@ HomePage
                                             <td>Closed</td>
                                         </tr>
                                         <tr>
-                                            <td>MustCall</td>
+                                            <td>Call</td>
                                             <td>Closed</td>
                                         </tr>
                                     </tbody>
@@ -674,6 +350,7 @@ HomePage
               
             </div>
         </div>
+        <script src="ScheduleGrab.js"></script>
     </body>
     
     <footer class="container-fluid"> 
