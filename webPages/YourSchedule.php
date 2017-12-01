@@ -4,7 +4,7 @@ include 'login.php';
 ?>
 <!--
 Greg Corujo
-HomePage 
+YourSchedule Page
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -54,8 +54,8 @@ HomePage
                 <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="HomePage.php">Home</a></li>
-                    <li><a href="YourSchedule.html">Your Schedule</a></li>
-                    <li><a href="ManagerSchedulePage.html">Manager Schedule</a></li>  
+                    <li><a href="YourSchedule.php">Your Schedule</a></li>
+                    <li><a href="ManagerSchedulePage.php">Manager Schedule</a></li>
                     <li><a href="AnnouncementsPage.html">Announcements</a></li>
                     <li><a href="ShiftTradesPage.html">Shift Trades</a></li>
                     <li><a href="ProfilePage.php">Profile</a></li>
@@ -104,44 +104,7 @@ HomePage
                                   </tr>
                               </thead>
                               
-                              <tbody>
-                                <tr>
-                                  <td>Monday</td>
-                                    <td><label>Lunch/Dinner</label></td>
-                                    <td><a data-toggle="modal" data-target="#tradeModal">lunch</a>
-                                        /<a data-toggle="modal" data-target="#tradeModal">dinner</a></td>
-                                  </tr>
-                                  <tr>
-                                  <td>Tuesday</td>
-                                    <td><label>Dinner</label></td>
-                                    <td><a data-toggle="modal" data-target="#tradeModal">dinner</a></td>
-                                  </tr>
-                                  <tr>
-                                  <td>Wednesday</td>
-                                    <td><label>Off</label></td>
-                                    <td><a data-toggle="modal" data-target="#tradeModal"></a></td>
-                                  </tr>
-                                  <tr>
-                                  <td>Thursday</td>
-                                    <td><label>Lunch</label></td>
-                                    <td><a data-toggle="modal" data-target="#tradeModal">lunch</a></td>
-                                  </tr>
-                                  <tr>
-                                  <td>Friday</td>
-                                    <td><label>Dinner</label></td>
-                                    <td><a data-toggle="modal" data-target="#tradeModal">dinner</a></td>
-                                  </tr>
-                                  <tr>
-                                  <td>Saturday</td>
-                                    <td><label>Dinner</label></td>
-                                    <td><a data-toggle="modal" data-target="#tradeModal">dinner</a></td>
-                                  </tr>
-                                  <tr>
-                                  <td>Sunday</td>
-                                    <td><label>off</label></td>
-                                    <td><a data-toggle="modal" data-target="#tradeModal"></a></td>
-                                  </tr>
-                              </tbody>
+                              <tbody id="yourSched"></tbody>
                           
                           </table>
                       
@@ -180,7 +143,8 @@ HomePage
                 </div>
               </div>
             </div>
-        </div>                    
+        </div>
+        <script src="yourSchedule.js"></script>
     </body>
     
     <footer class="container-fluid"> 

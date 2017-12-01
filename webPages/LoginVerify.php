@@ -35,6 +35,7 @@ if ($result->num_rows > 0) {
     $username = $row["username"];
     $password = $row["password"];
     $emp_num = $row["emp_num"];
+    $_SESSION["emp_num"] = $emp_num;
 } else {
     header("Location: LoginPage.php");
 }
@@ -44,7 +45,8 @@ if($pass === $password) {
 
     $sql = "select emp_firstname, emp_lastname, phone, hire_date, title, email, description 
             from Employee 
-            where emp_num ='". $emp_num. "'";
+            where emp_num =$emp_num";
+    //where emp_num ='". $emp_num. "'";
     $result = $conn->query($sql);
     if($result->num_rows > 0) {
         $row = $result->fetch_assoc();

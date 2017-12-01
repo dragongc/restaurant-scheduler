@@ -54,8 +54,8 @@ HomePage
                 <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav">
                     <li class="active"><a href="HomePage.php">Home</a></li>
-                    <li><a href="YourSchedule.html">Your Schedule</a></li>
-                    <li><a href="ManagerSchedulePage.html">Manager Schedule</a></li>
+                    <li><a href="YourSchedule.php">Your Schedule</a></li>
+                    <li><a href="ManagerSchedulePage.php">Manager Schedule</a></li>
                     <li><a href="AnnouncementsPage.html">Announcements</a></li>
                     <li><a href="ShiftTradesPage.html">Shift Trades</a></li>
                     <li><a href="ProfilePage.php">Profile</a></li>
@@ -112,8 +112,8 @@ HomePage
                                   </tr>
                               </thead>
                               
-                              <tbody>
-                                <tr>
+                              <tbody id="manSched">
+                                <!--<tr>
                                     <td><label>Monday</label></td>
                                     <td><a>Lana</a></td>
                                     <td><a>Tony</a></td>
@@ -147,14 +147,15 @@ HomePage
                                     <td><label>Sunday</label></td>
                                     <td><a>Doug</a></td>
                                     <td>Closed</td>
-                                </tr>   
+                                </tr> -->
                               </tbody>
                           </table>
                       </div>   
                   </div>
               </div>         
             </div>
-        </div>                    
+        </div>
+        <script src="managerSchedule.js"></script>
     </body>
     
     <footer class="container-fluid"> 

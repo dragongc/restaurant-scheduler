@@ -79,7 +79,6 @@ HomePage
                                 <label><input type="checkbox" name="cb"> Remember me</label>
                               </div>
                               <input type="submit" class="btn btn-info" value="Login">
-                              <!--<a type="submit" href="HomePage.html" class="btn btn-info" role="button">Login</a>-->
 
                             </form>
                             </div>
